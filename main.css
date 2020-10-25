@@ -8,6 +8,7 @@
   text-transform: uppercase;
   font-family: sans-serif;
   list-style-type: none;
+  cursor: pointer;
 }
 .main-menu-labels {
   margin: 0;
@@ -31,6 +32,7 @@
   border: 2px solid #fff;
   box-sizing: border-box;
   transition: .5s ease;
+  cursor: pointer;
 }
 
 /* Hover and transitions */
