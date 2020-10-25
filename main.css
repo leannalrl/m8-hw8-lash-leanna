@@ -17,6 +17,9 @@
   font-size: 18px;
 }
 /* Sub Menu Styling */
+.sub-menu{
+    visibility: hidden;
+}
 .sub-menu {
   padding-left: 0;
   background-color: #dde1e7;
@@ -27,4 +30,17 @@
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+  transition: .5s ease;
+}
+
+/* Hover and transitions */
+nav ul li:hover ul li {
+  visibility: visible;
+  transition: 2s ease;
+  background-color: goldenrod;
+}
+
+nav ul ul {
+    transition: 1s ease;
+	color: white;
 }
